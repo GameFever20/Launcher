@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="shortcut.launcher.appforyou.launcher.MainActivity">
+
+
+
+
+  <GridView
+      android:layout_width="match_parent"
+      android:id="@+id/gridView"
+
+      android:numColumns="auto_fit"
+      android:columnWidth="100dp"
+      android:horizontalSpacing="10dp"
+      android:verticalSpacing="10dp"
+      android:gravity="center"
+      android:stretchMode="columnWidth"
+
+      android:layout_height="match_parent">
+
+
+  </GridView>
+
+</RelativeLayout>
